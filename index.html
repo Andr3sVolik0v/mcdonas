@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>McDonas</title>
+    <link type="text/css" rel="stylesheet" href="CSS/index.css">
+    <link type="text/css" rel="stylesheet" href="CSS/header.css">
+    <link type="text/css" rel="stylesheet" href="CSS/footer.css">
+    <link type="image/png" rel="shortcut icon" href="img/icono_pagina.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+</head>
+<body>
+
+    <div class="Contenedor">
+
+<!-- Encabezado. -->
+
+        <header class="header">
+            <nav class="nav">
+                <a href="index.html" class="logo nav-link">McDonas</a>
+                <ul class="nav-menu">
+                    <li class="nav-menu-item"><a href="index.html" class="nav-menu-link nav-link">Inicio</a></li>
+                    <li class="nav-menu-item"><a href="HTML/productos.html" class="nav-menu-link nav-link">Productos</a></li>
+                    <li class="nav-menu-item"><a href="HTML/sobre_nosotros.html" class="nav-menu-link nav-link">Sobre Nosotros</a></li>
+                    <li class="nav-menu-item"><a href="HTML/contacto.html" class="nav-menu-link nav-link">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+
+<!-- Primer slide, con los donuts de Cacao, Nutella y KitKat. -->
+
+        <article>
+            <section>
+            <div class="header-content container">
+                <div class="swiper mySwiper-1">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="slider">
+                                <div class="slider-txt">
+                                    <h1>Cacao</h1>
+                                    <p>Saborea el nuevo donut relleno de cacao.</p>
+                                    <div class="botones">
+                                        <button class="btn-1" onclick="boton()">Comprar</button>
+                                        <button class="btn-1" onclick="boton()">Menu</button>
+                                    </div>
+                                </div>
+                                <div class="slider-img">
+                                    <img src="img/Donut_Cacao.png" alt="Cacao">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="slider">
+                                <div class="slider-txt">
+                                    <h1>Nutella</h1>
+                                    <p>Manchate los dedos con el nuevo sabor de Nutella.<p>
+                                    <div class="botones">
+                                        <button class="btn-1" onclick="boton()">Comprar</button>
+                                        <button class="btn-1" onclick="boton()">Menu</button>
+                                    </div>
+                                </div>
+                                <div class="slider-img">
+                                    <img src="img/Donut_Nutella.png" alt="Nutella">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="slider">
+                                <div class="slider-txt">
+                                    <h1>KitKat</h1>
+                                    <p>Siente el crujiente con el donut de KitKat.</p>
+                                    <div class="botones">
+                                        <button class="btn-1" onclick="boton()">Comprar</button>
+                                        <button class="btn-1" onclick="boton()">Menu</button>
+                                    </div>
+                                </div>
+                                <div class="slider-img">
+                                    <img src="img/Donut_KitKat.png" alt="KitKat">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+            </section>
+
+<!-- Apartado de descripción. -->
+
+            <section id="Descripcion">
+                <div class="container">
+                    <div class="ImagenDescripcion"><img src="img/HombreComiendo.png"></div>
+                    <div class="TextoDescripcion">
+                    <h2>Somos <span class="colormcdonas">McDonas</span></h2>
+                    <p>En McDonas encontrarás los donuts más deliciosos y frescos, con sabores como chocolate, coco y fresa, perfectos para cualquier antojo. Y pronto, ¡habrá muchos más! Nos apasiona ofrecerte la mejor calidad y sabor en cada bocado, para que disfrutes de una experiencia única. Haz tu pedido ahora y déjate sorprender por nuestras irresistibles opciones.</p>
+                    </div>
+                </div>
+            </section>
+
+<!-- Mapa. -->
+
+            <section id="Mapa">
+                <div class="container">
+                    <h2>Donde estamos</h2>
+                </div>
+                <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3207.5420162377045!2d-4.754191023600954!3d36.49277627233645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd732041cd1864f1%3A0xedb0d15236365c18!2sPueblo%20Andaluz!5e0!3m2!1ses!2ses!4v1730906731584!5m2!1ses!2ses" width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </section>
+
+        </article>
+
+<!-- Pie de Página. -->
+
+        <footer>
+            <ul class="Social">
+                <li class="ElementoIcono">
+                    <a href="https://youtube.com" class="Icono">
+                        <ion-icon name="logo-youtube"></ion-icon>
+                    </a>
+                </li>
+                <li class="ElementoIcono">
+                    <a href="https://facebook.com" class="Icono">
+                        <ion-icon name="logo-facebook"></ion-icon>
+                    </a>
+                </li>
+                <li class="ElementoIcono">
+                    <a href="https://instagram.com" class="Icono">
+                        <ion-icon name="logo-instagram"></ion-icon>
+                    </a>
+                </li>
+                <li class="ElementoIcono">
+                    <a href="https://x.com" class="Icono">
+                        <ion-icon name="logo-twitter"></ion-icon>
+                    </a>
+                </li>
+            </ul>
+            <ul class="Menu">
+                <il class="Elemento">
+                    <a href="index.html" class="IconoMenu"> Inicio </a>
+                </il>
+                <il class="elemento">
+                    <a href="HTML/productos.html" class="IconoMenu"> Productos </a>
+                </il>
+                <il class="elemento">
+                    <a href="HTML/sobre_nosotros.html" class="IconoMenu"> Sobre nosotros </a>
+                </il>
+                <il class="elemento">
+                    <a href="HTML/contacto.html" class="IconoMenu"> Contacto </a>
+                </il>
+            </ul>
+            <p class="Texto">&copy;2024 | Todos los derechos reservados</p>
+        </footer>
+    </div>
+
+<!-- Enlazamiento con el paquete para el Swiper. -->
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+<!-- Enlazamiento con archivo .js. -->
+
+    <script src="JS/index.js"></script>
+
+<!-- Enlazamiento con el paquete para iconos. -->
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+
+</body>
+</html>

@@ -1,0 +1,158 @@
+/* Fuente agregada de Google Fonts. */
+
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+/* Estilo principal de la página. */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+/* Fuente descargada. */
+
+@font-face {
+    font-family: "McDonut";
+    src: url("../fonts/McDonutsDemoRegular.ttf") format("truetype");
+}
+
+body {
+    font-family: "McDonut", sans-serif;
+    padding: 0;
+    background-color: rgb(255, 251, 212);
+}
+
+section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+/* Slide de donuts Cacao, Nutella y KitKat. */
+
+.swiper-button-prev, .swiper-button-next {
+    --swiper-theme-color: rgb(115, 79, 0);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.slider {
+    display: flex;
+    align-items: center;
+}
+
+.slider-txt {
+    margin-left: 85px;
+    width: 50%;
+}
+
+.slider-txt h1 {
+    font-size: 70px;
+    color: rgb(162, 103, 0);
+    text-transform: uppercase;
+    font-weight: 800;
+    font-family: "McDonut";
+}
+
+.slider-txt p {
+    font-size: 25px;
+    color: rgb(255, 175, 63);
+}
+
+.botones {
+    margin-top: 50px;
+}
+
+.btn-1 {
+    display: inline-block;
+    padding: 15px 35px;
+    border: 2px solid rgb(118, 94, 0);
+    color: rgb(255, 175, 63);
+    font-weight: 800;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-right: 20px;
+    border-radius: 50px;
+    text-decoration: none;
+    background: transparent;
+}
+
+.btn-1:hover {
+    border: 2px solid rgb(118, 94, 0);
+    background-color: rgb(118, 94, 0);
+}
+
+.slider-img {
+    width: 50%;
+}
+
+.slider-img img {
+    margin-right: 225px;
+    width: 550px;
+}
+
+/* Descripción. */
+
+h2 {
+    font-size: 2.7em;
+    font-weight: 800;
+    margin-bottom: 50px;
+    color: rgb(162, 103, 0);
+    font-family: "McDonut";
+}
+
+p {
+    font-size: 1.25em;
+    color: rgb(162, 103, 0);
+}
+
+.colormcdonas {
+    color: rgb(255, 121, 222);
+    font-family: "McDonut";
+}
+
+#Descripcion {
+    background-color: rgb(255, 217, 114);
+}
+
+#Descripcion .TextoDescripcion {
+    width: 50%;
+    max-width: 600px;
+    text-align: initial;
+    padding: 0 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#Descripcion .container{
+    display: flex;
+    justify-content: center;
+}
+
+#Descripcion img {
+    background-size: cover;
+    background-position: center center;
+    height: 500px;
+    width: 500px;
+    border-radius: 35%;
+}
+
+/* Mapa. */
+
+#Mapa h2 {
+    margin-bottom: 100px;
+}
+
+#Mapa .container {
+    display: flex;
+    justify-content: center;
+}
+
+.mapa {
+    filter: drop-shadow(0px 0px 50px rgb(255, 153, 0)) sepia(45%) saturate(160%)
+}
